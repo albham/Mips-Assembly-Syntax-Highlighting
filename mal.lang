@@ -157,7 +157,7 @@
 			<keyword>subu</keyword>
 			<keyword>mult</keyword>
 			<keyword>multu</keyword>
-			<keyword>mul\.[sd]</keyword>
+			<keyword>mul(\.[sd])?</keyword>
 			<keyword>mulo</keyword>
 			<keyword>mulou</keyword>
 			<keyword>madd</keyword>
