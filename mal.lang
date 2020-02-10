@@ -42,7 +42,7 @@
         <style id="decimal"           	_name="Decimal number"  	map-to="def:decimal"/>
 	<style id="label"		_name="Label"			map-to="def:identifier" />
     </styles>
-    
+
     <default-regex-options case-sensitive="false"/>
 
     <definitions>
@@ -53,7 +53,7 @@
         </define-regex>
 
         <context id="mal">
-            <include>	
+            <include>
 		<context id="preprocessor" style-ref="preprocessor">
 			<prefix>^\.</prefix>
 			<keyword>data</keyword>
@@ -94,7 +94,7 @@
                     </match>
                 </context>
 
-                <context id="registers" style-ref="register">			
+                <context id="registers" style-ref="register">
 			<match extended="true">
 				(\$
 					(
@@ -109,7 +109,7 @@
 						(f\d|f[12]\d|f31)
 					)
 				)\b
-			</match>			
+			</match>
                 </context>
 
 		<context id="label" style-ref="label">
@@ -240,8 +240,8 @@
 			<keyword>puts</keyword>
 			<keyword>done</keyword>
 			<keyword>syscall</keyword>
-                </context>                               
-                
+                </context>
+
                 <context id="types" style-ref="type">
 			<prefix>\.</prefix>
 			<keyword>byte</keyword>
@@ -249,9 +249,11 @@
 			<keyword>asciiz</keyword>
 			<keyword>ascii</keyword>
 			<keyword>float</keyword>
-                </context>         
+			<keyword>double</keyword>
+			<keyword>space</keyword>
+                </context>
             </include>
         </context>
-        
+
     </definitions>
 </language>
