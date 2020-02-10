@@ -55,7 +55,7 @@
         <context id="mal">
             <include>
 		<context id="preprocessor" style-ref="preprocessor">
-			<prefix>^\.</prefix>
+			<prefix>\.</prefix>
 			<keyword>data</keyword>
 			<keyword>text</keyword>
 		</context>
