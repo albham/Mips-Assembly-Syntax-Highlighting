@@ -203,7 +203,7 @@
 			<keyword>mtc0</keyword>
 			<keyword>mfc1</keyword>
 			<keyword>mtc1</keyword>
-			<keyword>b</keyword>
+
 			<keyword>slt</keyword>
 			<keyword>sltu</keyword>
 			<keyword>slti</keyword>
@@ -216,21 +216,29 @@
 			<keyword>sle</keyword>
 			<keyword>sleu</keyword>
 			<keyword>sne</keyword>
+
 			<keyword>b</keyword>
 			<keyword>bc1f</keyword>
 			<keyword>bc1t</keyword>
 			<keyword>beq</keyword>
-			<keyword>bne</keyword>
-			<keyword>blt</keyword>
-			<keyword>bgt</keyword>
-			<keyword>ble</keyword>
-			<keyword>bge</keyword>
-			<keyword>bltz</keyword>
+			<keyword>bgez</keyword>
+			<keyword>bgezal</keyword>
 			<keyword>bgtz</keyword>
 			<keyword>blez</keyword>
-			<keyword>bgez</keyword>
-			<keyword>bnez</keyword>
+			<keyword>bltzal</keyword>
+			<keyword>bltz</keyword>
+			<keyword>bne</keyword>
 			<keyword>beqz</keyword>
+			<keyword>bge</keyword>
+			<keyword>bgeu</keyword>
+			<keyword>bgt</keyword>
+			<keyword>bgtu</keyword>
+			<keyword>ble</keyword>
+			<keyword>bleu</keyword>
+			<keyword>blt</keyword>
+			<keyword>bltu</keyword>
+			<keyword>bnez</keyword>
+
 			<keyword>j</keyword>
 			<keyword>jr</keyword>
 			<keyword>jal</keyword>
