@@ -122,7 +122,7 @@
 		<context id="opcodes_simple" style-ref="opcode">
 			<!-- MAL Opcodes -->
 			<keyword>la</keyword>
-			<keyword>li</keyword>
+			<keyword>li(\.[sd])?</keyword>
 			<keyword>lw</keyword>
 			<keyword>lwcl</keyword>
 			<keyword>lwl</keyword>
